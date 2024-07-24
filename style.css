@@ -1,5 +1,5 @@
 nav {
-  background-color:#2c2e51;
+  background-color: #2c2e51;
   padding: 20px;
   border-radius: 40px;
 } 
@@ -10,11 +10,13 @@ nav {
   padding-left: 50px;
   padding-bottom: 100px;
   height:50px;
+  position: relative;
+  bottom:20px;
 }
 
 body
   {background:#f4e0ff
-  padding: 50px;}
+  padding: auto;}
 h1{
   color:#2c2e51;
   font-family:sans-serif;
@@ -33,9 +35,13 @@ p{
 }
 .iconapp{
   display: flex;
-  justify-content:space-evenly;
-  padding-top:100px;
-}
+  justify-content:center;
+  padding-top: 100px;
+  }
+
+.iconapp img{padding-right: 200px;
+padding-left: 200px}
+
 .logo{margin-left:20px;
 border-radius: 20%}
 
@@ -47,7 +53,23 @@ padding-top:50px;
   object-fit: contain;
  }
 
-.appli{display: flex;
-justify-content: center;
+.appli{
+display: flex;
+justify-content: center ;
 padding-top: 100px;
-border-radius: 20%;}
+padding-bottom: 50px}
+
+.appli p {padding-right: 20px}
+
+.amelie{column-count:3;
+width:1200px;
+height:auto;}
+
+.sarah {column-count:3;
+width:1200px;
+height:auto;}
+
+.camille {column-count:3;
+width:1200px;
+height:auto;}
+
